@@ -1,0 +1,55 @@
+$main-theme-menu-color: white;
+
+header {
+   .hero {
+        height: 300px;
+        background-image: url('assets/396.jpg');
+        background-size: cover;
+        margin-top: -20px;
+   }
+
+    nav {
+        color: $main-theme-menu-color;
+        ul {
+            width: 75%;
+            margin: auto;
+            li {
+                display: inline;
+            }
+
+            a:hover {
+                background-color: aquamarine;
+            }
+        }
+    }
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    background-color: grey;
+    height: 120px;
+
+    div {
+        display: inline-block;
+        height: 100%;
+        width: 32%;
+
+        &.footer-tags {
+            background: lightblue;
+        }
+
+        &.footer-text {
+            font-size: 12px;
+        
+        }
+
+        &.footer-list li {
+            list-style: square;
+        }
+    }
+
+}
