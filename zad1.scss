@@ -1,3 +1,5 @@
+$img_width: 150px;
+
 .RWD {
     display:block;
     height:200px;
@@ -10,5 +12,67 @@
 
     @media screen and (max-width: 680px) and (min-width: 360px) {
         background-color: yellow;
+    }
+}
+
+.image {
+    width: 20%;
+}
+
+.content {
+    padding: 20px;
+    background: lightgray;
+    border: 2px black solid;
+}
+
+.img-floater {
+    float: left;
+}
+
+.img-hax {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.art2 p:first-of-type {
+    display:inline-block;
+    vertical-align: text-top;
+    width: 79%;
+}
+
+.clear {
+    clear:both;
+}
+
+.z4-content {
+    background: lightblue;
+    border: 2px black solid;
+    position:relative;
+    top:0;
+    div {
+        
+        &.z4-left {
+            position: absolute;
+            top:0;
+            background: red;
+            height:100px;
+            width:100px;
+        }
+        &.z4-right {
+            float:right;
+            background:yellow;
+            height:100px;
+            width:100px;
+        }
+    }
+}
+
+.z5-content {
+    background: lightgoldenrodyellow;
+    border: 2px black solid;
+    position:relative;
+    top:0;
+    .z5-1 {
+        
     }
 }
