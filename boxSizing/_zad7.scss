@@ -1,0 +1,17 @@
+div#szesc{
+    clear: both;
+    width: 100%;
+    height: 220px;
+    background: lightgreen;
+        div{
+            float: left;
+            background: red;
+            border: 5px black solid;
+            width: 200px;
+            height: 200px;
+            margin: 5px;
+            &#left-szesc{
+            float: right;
+            }
+        }
+}

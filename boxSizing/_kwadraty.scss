@@ -1,0 +1,26 @@
+div#up{
+    clear: both;
+    background: gray;
+    width:100%;
+    height: 300px;
+    #left {
+        background: red;
+        border: 5px black solid;
+        height: 200px;
+        width: 200px;
+        margin-top: 50px;
+        left: 0%;
+        display: inline-block;
+    }
+
+    #right {
+        display: inline-block;
+        float: right;
+        background: blue;
+        border: 5px yellow solid;
+        height: 200px;
+        width: 200px;
+        margin-top: 50px;
+        left: 90%;
+        }
+}    
