@@ -13,6 +13,7 @@ div {
     &.secondary-content {
         margin-top: 10px;
         background-color:blue;
+
         @media screen and (min-width: 360px) and (max-width: 680px) {
             width: 48%;
             margin-top:10px;
