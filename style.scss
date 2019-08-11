@@ -4,3 +4,41 @@
     margin: 0;
     padding: 0;
 }
+
+header nav {
+    ul {
+        li{
+        color: black;
+
+        @media screen and (max-width: 360px){
+        margin: 10px;
+        display: block;
+        }
+        @media screen and (max-width: 361px) and (max-width: 680px) and (orientation: landscape){
+        display: inline;
+        }
+        &#first {
+            @media screen and (max-width: 361px) and (max-width: 680px) and (orientation: landscape){
+                width: 100%;
+                }
+        }
+        }
+    }
+}
+
+section {
+    
+    background: blue;
+
+    @media screen and (max-width: 360px){
+        background: green;
+    }
+
+    @media screen and(min-width:361px) and (max-width: 680px){
+        background: yellow;
+    }
+
+    @media screen and(min-width:681px) and (max-width: 1200px){
+        background: red;
+    }
+}
