@@ -1,6 +1,19 @@
-@import 'layout';
+
 
 * {
     margin: 0;
     padding: 0;
 }
+
+
+     @media screen and (min-width:360px) and (max-width:680px) {
+   .main  {
+    background-color:yellow;
+  }
+} 
+@media screen and (min-width: 680px) and (max-width:1200px) {
+   .main  {
+    background-color:red;
+  }
+}  
+    
