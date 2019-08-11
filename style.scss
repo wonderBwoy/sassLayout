@@ -6,6 +6,11 @@
 }
 
 header nav {
+    box-sizing: border-box;
+    border: 5px black solid;
+    background: yellow;
+    padding: 5px;
+    width: 600px;
     ul {
         li{
         color: black;
@@ -40,5 +45,14 @@ section {
 
     @media screen and(min-width:681px) and (max-width: 1200px){
         background: red;
+    }
+
+    span {
+        &#sp{
+        color:red;
+        @media screen and (max-width: 360px){
+            color: blue;
+        }
+    }
     }
 }
