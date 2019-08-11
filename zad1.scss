@@ -1,0 +1,14 @@
+.RWD {
+    display:block;
+    height:200px;
+    background-color:red;
+    
+    @media screen and (max-width: 360px) {
+        background-color: green;
+        
+    }
+
+    @media screen and (max-width: 680px) and (min-width: 360px) {
+        background-color: yellow;
+    }
+}
