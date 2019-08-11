@@ -1,6 +1,41 @@
-@import 'layout';
+nav {
+    ol li {
+        display: inline;
+    }
+    @media screen and (max-width: 360px) {
+        ol li {
+            display: block;
+        }
+    }
+}
 
-* {
-    margin: 0;
-    padding: 0;
+
+.section-responsive {
+    display: block;
+    height: 400px;
+    background-image: url('assets/after.jpg');
+    background-size: contain;
+
+    @media screen and (max-width: 360px) {
+        background-image: url('assets/before.png');
+        background-size: contain;
+    }
+
+    /// TO SIE NIE WYSWIETLI
+    @media print and (max-width: 360px) {
+        background-image: url('assets/before.png');
+        background-size: contain;
+    }
+}
+
+
+p {
+    &.content-responsive {
+        font-size: 1em;
+
+        @media screen and (max-width: 360px) {
+            font-size: 0.8em;
+            color:red;
+        }
+    }
 }
